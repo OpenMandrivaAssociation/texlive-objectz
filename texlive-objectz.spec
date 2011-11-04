@@ -1,3 +1,9 @@
+# revision 19389
+# category Package
+# catalog-ctan /macros/latex/contrib/objectz
+# catalog-date 2006-12-30 22:14:40 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-objectz
 Version:	20061230
 Release:	1
@@ -48,6 +54,7 @@ develops the original zed package.
 #- source
 %doc %{_texmfdistdir}/source/latex/objectz/oz.dtx
 %doc %{_texmfdistdir}/source/latex/objectz/oz.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ develops the original zed package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
