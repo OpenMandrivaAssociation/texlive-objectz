@@ -54,3 +54,17 @@ develops the original zed package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20061230-2
++ Revision: 754464
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20061230-1
++ Revision: 719147
+- texlive-objectz
+- texlive-objectz
+- texlive-objectz
+- texlive-objectz
+
