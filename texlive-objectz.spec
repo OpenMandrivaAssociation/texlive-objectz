@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-objectz
-Version:	20061230
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Macros for typesetting Object Z
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/objectz
