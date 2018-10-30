@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-objectz
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Macros for typesetting Object Z
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/objectz
