@@ -3,7 +3,7 @@ Version:	61719
 Release:	2
 Summary:	Macros for typesetting Object Z
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/objectz
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/objectz
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/objectz.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/objectz.doc.r%{version}.tar.xz
